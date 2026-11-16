@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saranya | Data Analyst Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f8fa;
+      color: #263746;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #102a43;
+      color: white;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h2 {
+      color: #55d6be;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 22px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #55d6be;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #102a43, #176b75);
+      color: white;
+      padding: 100px 8%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 46px;
+      margin-bottom: 12px;
+    }
+
+    .hero h3 {
+      color: #55d6be;
+      font-size: 23px;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+      font-size: 17px;
+    }
+
+    .section {
+      padding: 65px 8%;
+    }
+
+    .section h2 {
+      text-align: center;
+      color: #102a43;
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+    .about {
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .project-card {
+      background: white;
+      padding: 28px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+      border-top: 4px solid #55b8a9;
+    }
+
+    .project-card h3 {
+      color: #176b75;
+      margin-bottom: 12px;
+    }
+
+    .project-card p {
+      margin-bottom: 18px;
+    }
+
+    .project-card a {
+      display: inline-block;
+      background: #176b75;
+      color: white;
+      padding: 9px 16px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .project-card a:hover {
+      background: #102a43;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 13px;
+    }
+
+    .skills span {
+      background: #d9f1ed;
+      color: #145b58;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+
+    .contact {
+      text-align: center;
+      background: #e7f2f3;
+    }
+
+    .contact a {
+      color: #176b75;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #102a43;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        justify-content: center;
+        gap: 12px;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero h1 {
+        font-size: 34px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h2>Saranya.</h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Hi, I'm Saranya</h1>
+    <h3>Aspiring Data Analyst</h3>
+    <p>
+      SQL | Python | Tableau
+
+      <br><br>
+      Turning data into meaningful insights through
+      analysis, visualization, and storytelling.
+    </p>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Me</h2>
+    <div class="about">
+      <p>
+        I am an aspiring Data Analyst interested in exploring
+        data, identifying patterns, and communicating insights.
+        Through hands-on projects, I have worked with SQL,
+        Python, and Tableau to perform data cleaning,
+        exploratory analysis, and data visualization.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2>Featured Projects</h2>
+
+    <div class="projects">
+
+      <div class="project-card">
+        <h3>Heart Failure Analysis</h3>
+        <p>
+          Python-based healthcare data analysis involving
+          data preparation, descriptive analysis,
+          predictive modeling, and a Streamlit dashboard.
+        </p>
+        <a href="https://github.com/SaranyaShanmugam2026/Team2_PythonPioneers_PythonHackathon_Sep_2026" target="_blank">
+          View Project
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>Diabetes Data Analysis</h3>
+        <p>
+          PostgreSQL project focused on healthcare data,
+          data cleaning, validation, and SQL analysis
+          using joins, CTEs, and window functions.
+        </p>
+        <a href="https://github.com/SaranyaShanmugam2026/Diabetes-Data-Analysis-SQL" target="_blank">
+          View Project
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>Sepsis Analysis – Tableau</h3>
+        <p>
+          Interactive Tableau storyboard presenting
+          data visualizations and insights from
+          sepsis-related data.
+        </p>
+        <a href="https://public.tableau.com/app/profile/saranya.shanmugam1835/viz/Sepsis_Storyboard/Sepsis_StoryBoard" target="_blank">
+          View Dashboard
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <span>SQL</span>
+      <span>PostgreSQL</span>
+      <span>Python</span>
+      <span>Pandas</span>
+      <span>NumPy</span>
+      <span>Tableau</span>
+      <span>Streamlit</span>
+      <span>Data Cleaning</span>
+      <span>Exploratory Data Analysis</span>
+      <span>Data Visualization</span>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Let's Connect</h2>
+    <p>Thank you for visiting my portfolio!</p>
+    <p>
+      GitHub:
+      <a href="https://github.com/SaranyaShanmugam2026" target="_blank">
+        View My GitHub
+      </a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Saranya | Data Analyst Portfolio</p>
+  </footer>
+
+</body>
+</html>
