@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Failure Analysis | Saranya</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f8fc;
+            color: #263445;
+            line-height: 1.7;
+        }
+
+        nav {
+            background: #102a43;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: linear-gradient(120deg, #102a43, #176b70);
+            color: white;
+            padding: 75px 10%;
+        }
+
+        .hero h1 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 750px;
+            font-size: 17px;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #d7f3ed;
+            color: #176b70;
+            padding: 6px 14px;
+            border-radius: 20px;
+            margin-bottom: 18px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1050px;
+            margin: 40px auto;
+            padding: 0 25px;
+        }
+
+        .section {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.04);
+        }
+
+        h2 {
+            color: #176b70;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        .project-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 25px;
+        }
+
+        .project-info span {
+            background: rgba(255,255,255,0.15);
+            padding: 8px 14px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #176b70;
+            color: white;
+            padding: 11px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 18px;
+        }
+
+        .button:hover {
+            background: #12565a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #102a43;
+            color: white;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 0 7px;
+            }
+
+            .hero h1 {
+                font-size: 29px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">Saranya.</div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="#overview">Overview</a>
+            <a href="#objectives">Objectives</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <span class="tag">PYTHON DATA ANALYSIS PROJECT</span>
+        <h1>Heart Failure Analysis</h1>
+        <p>
+            Exploring cardiac patient data through data cleaning,
+            exploratory analysis, predictive modeling, and an
+            interactive dashboard.
+        </p>
+
+        <div class="project-info">
+            <span>Python</span>
+            <span>Pandas & NumPy</span>
+            <span>Machine Learning</span>
+            <span>Streamlit</span>
+        </div>
+
+        <a class="button"
+           href="https://github.com/SaranyaShanmugam2026/Team2_PythonPioneers_PythonHackathon_Sep_2026"
+           target="_blank">
+            View GitHub Project →
+        </a>
+    </header>
+
+    <main class="container">
+
+        <section class="section" id="overview">
+            <h2>Project Overview</h2>
+            <p>
+                This project focuses on analyzing heart failure patient
+                data to explore patient characteristics, clinical
+                indicators, and health outcomes. Multiple healthcare
+                datasets were combined and prepared for analysis.
+                The project included descriptive, predictive, and
+                prescriptive analysis, along with an interactive
+                Streamlit dashboard.
+            </p>
+        </section>
+
+        <section class="section" id="objectives">
+            <h2>Project Objectives</h2>
+            <ul>
+                <li>Clean and prepare multiple healthcare datasets.</li>
+                <li>Explore patient demographics and clinical indicators.</li>
+                <li>Analyze patterns associated with patient outcomes.</li>
+                <li>Build predictive models to evaluate patient risk.</li>
+                <li>Present analytical results through a Streamlit dashboard.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Saranya | Data Analyst Portfolio</p>
+    </footer>
+
+</body>
+</html>
